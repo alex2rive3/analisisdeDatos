@@ -205,3 +205,15 @@ df = df.set_index('Días')
 fig, ax = plt.subplots()
 df.plot(ax = ax)
 plt.show()
+########################################################################################################
+#####################################DATAFRAME.PLOT#####################################################
+########################################################################################################
+#esta es una manera Resumida de hacer un grafico en donde ya se puede indicar todos los valores de los 
+# atributos que se desea modificar en el grafico por medio de la <,>
+df.plot(kind = 'bar',
+            title = "Ultimo grafico",
+            stacked = 'True',          # Muestra las barras apiladas
+            alpha = 0.4,               # nivel de transparencia
+            width = 0.9,               # Grosor de las barras para dejar espacio entre ellas
+            figsize=(9,4));            # Cambiamos el tamaño de la figura
+plt.show()
