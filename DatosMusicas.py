@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 dfCanciones = pd.read_csv(
-'songs_normalize.csv', sep=',', decimal='.')
+'dataset\songs_normalize.csv', sep=',', decimal='.')
 #print(dfCanciones.head())
 ##Obtenemos las canciones mas populares de cada año
 ##seleccionamos solo las filas que contienen la cancion mas popular
